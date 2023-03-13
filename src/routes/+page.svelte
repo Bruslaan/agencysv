@@ -4,6 +4,7 @@
 	import Whatwedo from '../components/whatwedo.svelte';
 	import Howwework from '../components/howwework.svelte';
 	import Showcase from '../components/showcase.svelte';
+	import Stackingcards from '../components/stackingcards.svelte';
 </script>
 
 <title>My Homepage</title>
@@ -13,3 +14,4 @@
 <Whatwedo />
 <Howwework />
 <Showcase />
+<!-- <Stackingcards /> -->

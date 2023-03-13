@@ -1,16 +1,16 @@
-<nav class="sticky top-0 m-0">
+<nav class="sticky top-0 m-0 z-10">
 	<div class="flex justify-between items-center max-w-6xl mx-auto py-1 border-b bg-white">
 		<a class="text-black text-lg " href="/">SoftSavants</a>
 
 		<ul class=" hidden md:flex text-gray-500  align-middle items-center font-light ">
 			<li>
-				<a class=" hover:text-gray-900 special" href="#home">Work</a>
+				<a class=" hover:text-gray-900 special" href="#">Work</a>
 			</li>
 			<li>
-				<a class=" hover:text-gray-900" href="#home">Methods</a>
+				<a class=" hover:text-gray-900" href="#whatwedo">Methods</a>
 			</li>
 			<li>
-				<a class=" hover:text-gray-900" href="#home">Faq</a>
+				<a class=" hover:text-gray-900" href="#howwework">Faq</a>
 			</li>
 			<li>
 				<a class=" hover:text-gray-900" href="#home">About</a>

@@ -1,24 +1,31 @@
-<section class="max-w-6xl mx-auto h-screen">
-	<h1 class="text-6xl font-bold w-1/2">What we do for living</h1>
-	<p class="text-4xl text-gray-400 font-light w-1/2">We build software everybody loves to use.</p>
+<script>
+	import Card from './Card.svelte';
+</script>
 
-	<!-- thre cards evenly distributed -->
+<section id="whatwedo" class="max-w-6xl mx-auto min-h-screen p-7 ">
+	<h1 class="text-4xl md:text-6xl   font-bold ">What we do for living</h1>
+	<p class="text-2xl md:text-4xl text-gray-400 font-light">
+		We build software everybody loves to use.
+	</p>
 
-	<div class="flex gap-5 justify-between">
-		<div class="rounded-md p-5 customgray w-full">
-			<h1>Ux Design</h1>
+	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 justify-between mt-20">
+		<Card
+			title="Ux Design 💅"
+			image="https://www.notion.so/cdn-cgi/image/format=auto,width=2048,quality=100/front-static/pages/home/customize-info.png"
+		/>
+		<Card
+			title="Web Development 💻"
+			image="https://www.notion.so/cdn-cgi/image/format=auto,width=750,quality=100/front-static/pages/home/meeting-notes.png"
+		/>
+		<Card
+			title="Mobile Development 📲"
+			image="https://www.notion.so/cdn-cgi/image/format=auto,width=2048,quality=100/front-static/pages/home/customize-info.png"
+		/>
+	</div>
 
-			<p>We design with love and passion</p>
-		</div>
-		<div class="rounded-md p-5 customgray w-full">
-			<h1>Ux Design</h1>
-
-			<p>We design with love and passion</p>
-		</div>
-		<div class="rounded-md p-5 customgray w-full">
-			<h1>Ux Design</h1>
-
-			<p>We design with love and passion</p>
-		</div>
+	<div class=" max-w-3xl  mx-auto mt-20">
+		<p class="text-center w-full text-2xl md:text-4xl font-serif italic">
+			"We adapt to your needs. It’s as minimal or as powerful as you need it to be."
+		</p>
 	</div>
 </section>

@@ -3,6 +3,7 @@
 	import Header from '../components/header.svelte';
 	import Whatwedo from '../components/whatwedo.svelte';
 	import Howwework from '../components/howwework.svelte';
+	import Showcase from '../components/showcase.svelte';
 </script>
 
 <title>My Homepage</title>
@@ -11,3 +12,4 @@
 <Header />
 <Whatwedo />
 <Howwework />
+<Showcase />

@@ -14,6 +14,8 @@
 	</div>
 
 	{#if image}
-		<img class="max-h-56 bg-contain" src={image} alt="" />
+		<div class="max-h-56 bg-contain overflow-hidden">
+			<img class=" " src={image} alt="" />
+		</div>
 	{/if}
 </div>

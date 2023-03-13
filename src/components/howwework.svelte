@@ -8,37 +8,37 @@
 		{
 			title: 'Test Card 1',
 			image: 'https://picsum.photos/200/301',
-			step: '1. Create a new design'
+			step: 'Create a new design'
 		},
 		{
 			title: 'Test Card 2',
 			image: 'https://picsum.photos/200/302',
-			step: '2. Functional requirements'
+			step: 'Functional requirements'
 		},
 		{
 			title: 'Test Card 3',
 			image: 'https://picsum.photos/200/303',
-			step: '3. Technical requirements'
+			step: 'Technical requirements'
 		},
 		{
 			title: 'Test Card 4',
 			image: 'https://picsum.photos/200/304',
-			step: '4. Development'
+			step: 'Development'
 		},
 		{
 			title: 'Test Card 5',
 			image: 'https://picsum.photos/200/305',
-			step: '5. Quality assurance'
+			step: 'Quality assurance'
 		},
 		{
 			title: 'Test Card 6',
 			image: 'https://picsum.photos/200/306',
-			step: '6. Deployment'
+			step: 'Deployment'
 		},
 		{
 			title: 'Test Card 7',
 			image: 'https://picsum.photos/200/306',
-			step: '7. Maintenance and updates'
+			step: 'Maintenance and updates'
 		}
 	];
 	const setActive = (y) => {
@@ -74,10 +74,13 @@
 		<div
 			bind:this={element}
 			id="track"
-			class="md:w-1/2  h-[200vh] flex flex-col justify-between  text-4xl font-bold pt-[50%] pb-[50%]"
+			class="md:w-1/2 h-[2000px] flex flex-col justify-between  text-4xl font-bold pt-[50%] pb-[50%]"
 		>
 			{#each exampleContent as content, i}
-				<h1 class={currentIndex == i ? 'text-gray-900' : 'text-gray-300'}>{content.step}</h1>
+				<h1 class={currentIndex == i ? 'text-gray-900' : 'text-gray-300'}>
+					<span>{i}.</span>
+					{content.step}
+				</h1>
 			{/each}
 		</div>
 

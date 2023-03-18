@@ -9,18 +9,9 @@
 	</p>
 
 	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 justify-between mt-20">
-		<Card
-			title="Ux Design 💅"
-			image="https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/pages/home/community-icons-V2.png"
-		/>
-		<Card
-			title="Web Development 💻"
-			image="https://www.notion.so/cdn-cgi/image/format=auto,width=750,quality=100/front-static/pages/home/meeting-notes.png"
-		/>
-		<Card
-			title="Mobile Development 📲"
-			image="https://www.notion.so/cdn-cgi/image/format=auto,width=2048,quality=100/front-static/pages/home/customize-info.png"
-		/>
+		<Card title="Ux Design 💅" image="design.png" />
+		<Card title="Web Development 💻" image="webdev.png" />
+		<Card title="Mobile Development 📲" image="mobiledev.png" />
 	</div>
 
 	<div class=" max-w-3xl  mx-auto mt-20">

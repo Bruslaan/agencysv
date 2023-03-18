@@ -12,7 +12,8 @@
 		},
 		{
 			title: 'Test Card 2',
-			image: 'https://picsum.photos/200/302',
+			image:
+				'https://cdn.discordapp.com/attachments/989268337886367754/1086639560672411690/Bruslan_sketch_of_an_software_in_figma_69a2e5c3-e687-4f59-8fd1-bb3d679cd36b.png',
 			step: 'Functional requirements'
 		},
 		{
@@ -76,7 +77,7 @@
 		>
 			{#each exampleContent as content, i}
 				<h1 class={currentIndex == i ? 'text-gray-900' : 'text-gray-300'}>
-					<span>{i}.</span>
+					<span>{i + 1}.</span>
 					{content.step}
 				</h1>
 			{/each}

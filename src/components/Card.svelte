@@ -16,7 +16,7 @@
 
 	{#if image}
 		<div class=" overflow-hidden mx-auto  max-w-[80%]">
-			<img class="object-fit object-contain max-h-[300px]" src={image} alt="" />
+			<img class="object-fit object-contain max-h-[300px] mix-blend-darken" src={image} alt="" />
 		</div>
 	{/if}
 </div>

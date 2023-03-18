@@ -5,6 +5,8 @@
 	import Howwework from '../components/howwework.svelte';
 	import Showcase from '../components/showcase.svelte';
 	import Stackingcards from '../components/stackingcards.svelte';
+	import Footer from '../components/footer.svelte';
+	import Faq from '../components/accordion.svelte';
 </script>
 
 <title>My Homepage</title>
@@ -14,4 +16,7 @@
 <Whatwedo />
 <Howwework />
 <Showcase />
+<Faq />
+<Footer />
+
 <!-- <Stackingcards /> -->

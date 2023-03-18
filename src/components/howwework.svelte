@@ -1,6 +1,6 @@
 <script>
 	import Card from './Card.svelte';
-	let y = 0;
+	let scrollPosition = 0;
 	let element;
 	let currentIndex = 0;
 	let children;
@@ -41,11 +41,12 @@
 			step: 'Maintenance and updates'
 		}
 	];
-	const setActive = (y) => {
+	const setActive = (_scrollPosition) => {
 		if (!children) return;
 		for (var i = 0; i < children.length; i++) {
-			var element = children[i];
-			if (element.offsetTop + element.offsetHeight - window.innerHeight / 2 < y) {
+			const element = children[i];
+			const distanceFromTop = element.offsetTop + element.offsetHeight - window.innerHeight / 2;
+			if (distanceFromTop < _scrollPosition) {
 				if (currentIndex < i) {
 					currentIndex = i;
 				}
@@ -57,10 +58,7 @@
 		}
 	};
 
-	$: {
-		setActive(y);
-	}
-
+	$: setActive(scrollPosition);
 	$: children = element?.children;
 </script>
 
@@ -74,7 +72,7 @@
 		<div
 			bind:this={element}
 			id="track"
-			class="md:w-1/2 h-[2000px] flex flex-col justify-between  text-4xl font-bold pt-[50%] pb-[50%]"
+			class="md:w-1/3 h-[2000px] flex flex-col justify-between  text-2xl font-bold pt-[50%] pb-[50%]"
 		>
 			{#each exampleContent as content, i}
 				<h1 class={currentIndex == i ? 'text-gray-900' : 'text-gray-300'}>
@@ -85,7 +83,7 @@
 		</div>
 
 		<div
-			class="md:w-1/2 sticky md:top-0  bottom-[10%]  md:h-screen flex justify-center items-center"
+			class="md:w-2/3 sticky md:top-0  bottom-[10%]  md:h-screen flex justify-center items-center"
 		>
 			<div class="">
 				<Card title={exampleContent[currentIndex].title} />
@@ -94,4 +92,4 @@
 	</div>
 </section>
 
-<svelte:window bind:scrollY={y} />
+<svelte:window bind:scrollY={scrollPosition} />

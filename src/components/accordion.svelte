@@ -2,7 +2,7 @@
 	import AccordionItem from './accordionItem.svelte';
 	const data = [
 		{
-			question: 'What is Svelte?',
+			question: 'What is TADM?',
 			answer: 'Svelte is a compiler for building'
 		},
 		{
@@ -10,17 +10,10 @@
 			answer: 'Svelte is a compiler for building'
 		},
 		{
-			question: "What's the difference between Svelte and React?",
+			question: "What's the difference between TADM and other nutritions?",
 			answer: 'Svelte is a compiler for building'
 		},
-		{
-			question: "What's the difference between Svelte and Vue?",
-			answer: 'Svelte is a compiler for building'
-		},
-		{
-			question: "What's the difference between Svelte and Angular?",
-			answer: 'Svelte is a compiler for building'
-		}
+
 	];
 </script>
 

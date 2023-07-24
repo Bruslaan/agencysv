@@ -14,7 +14,7 @@
 				<a class=" hover:text-gray-900 special" href="#">Tadm</a>
 			</li>
 			<li>
-				<a class=" hover:text-gray-900" href="#howwework">Faq</a>
+				<a class=" hover:text-gray-900" href="#faq">Faq</a>
 			</li>
 			<li>
 				<a class=" hover:text-gray-900" href="#home">About</a>

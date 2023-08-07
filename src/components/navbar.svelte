@@ -14,14 +14,14 @@
 				<a class=" hover:text-gray-900 special" href="#">Tadm</a>
 			</li>
 			<li>
-				<a class=" hover:text-gray-900" href="#faq">Faq</a>
+				<p  class=" text-gray-400" href="#faq">Faq</p>
 			</li>
 			<li>
-				<a class=" hover:text-gray-900" href="#home">About</a>
+				<p class=" text-gray-400" href="#home">About</p>
 			</li>
 
 			<li>
-				<a class=" hover:text-gray-900" href="#home">Blog</a>
+				<p class=" text-gray-400" href="#home">Blog</p>
 			</li>
 		</ul>
 

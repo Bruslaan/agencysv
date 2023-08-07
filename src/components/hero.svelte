@@ -1,8 +1,11 @@
 <script>
     import leafLogo from "../assets/leaf.static.png";
     import capsuleLogo from "../assets/capsule.static.png";
-    import bottleLogo from "../assets/bottle.static.webp";
+    import tadm from "../assets/tadm.png";
+
 </script>
+
+
 
 <div class="container relative max-w-6xl m-auto flex items-center justify-start h-[95vh]">
 
@@ -23,6 +26,10 @@
           mb-2 text-gray-400 font-thin ubuntuthin" style="line-height: 1.2;">
               BE BETTER VERSION OF YOURSELF
             </div>
+
+            <div class=" text-lg">
+              Coming Soon
+            </div>
         </div>
 
        
@@ -35,7 +42,7 @@
            </div>
         </div>
      
-        <a class="text-2xl text-blue-700 uppercase " href="/">Preorder now 🤝</a>
+        <a class="text-2xl text-blue-700 uppercase " on:click={hideModal=false} href="/">Preorder now 🤝</a>
       </div>
 
 
@@ -51,16 +58,18 @@
         <img class="absolute top-[30%] left-20 -rotate-45  blur-sm animate-floating " width="70" src="{capsuleLogo}" alt="">
         <img class="absolute top-[10%] left-[30%] -rotate-45  blur-md animate-floating " width="30" src="{capsuleLogo}" alt="">
         <img class="absolute top-40 right-40 -rotate-45  animate-floating " width="70" src="{capsuleLogo}" alt="">
-        <img class="absolute top-[50%] right-20 rotate-45 animate-floating" width="90" src="{capsuleLogo}" alt="">
+        <!-- <img class="absolute top-[50%] right-20 rotate-45 animate-floating" width="90" src="{capsuleLogo}" alt=""> -->
         <img class="absolute blur-sm top-[50%] right-[30%] -rotate-45  animate-floating " width="90" src="{capsuleLogo}" alt="">
         
         <img
-        src="{bottleLogo}"
+        src="{tadm}"
         alt=""
+        width="300"
         loading="lazy"
-        class="w-full h-full object-cover object-center rotate-12"
+        class="object-cover object-center rotate-12 m-auto"
       >
       </div>
+
 
   
 

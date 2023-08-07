@@ -13,7 +13,8 @@
 
 <Navbar />
 <Hero />
-<Faq />
+
+<!-- <Faq /> -->
 <Footer />
 
 <!-- <Stackingcards /> -->

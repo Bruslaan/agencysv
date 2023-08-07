@@ -9,7 +9,6 @@
 
 <div class="container relative max-w-6xl m-auto flex items-center justify-start h-[95vh]">
 
-
    <!-- <svg class="absolute opacity-20  w-full h-full bg-center"  xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 400"><path d="M0.8968609571456909,397.3094177246094C0.8968609571456909,397.3094177246094,100.44843292236328,239.46188354492188,100.44843292236328,239.46188354492188C100.44843292236328,239.46188354492188,275.3363342285156,324.6636657714844,275.3363342285156,324.6636657714844C275.3363342285156,324.6636657714844,421.524658203125,157.8475341796875,421.524658203125,157.8475341796875C421.524658203125,157.8475341796875,554.2600708007812,331.83856201171875,554.2600708007812,331.83856201171875C554.2600708007812,331.83856201171875,799.1031494140625,50.22421646118164,799.1031494140625,50.22421646118164" fill="none" stroke-width="1" stroke="url(&quot;#SvgjsLinearGradient1002&quot;)" stroke-linecap="round" stroke-opacity="1"></path><defs><linearGradient id="SvgjsLinearGradient1002" gradientTransform="rotate(0, 0.5, 0.5)"><stop stop-color="hsl(1, 69%, 60%)" offset="0"></stop><stop stop-color="hsl(205, 91%, 80%)" offset="1"></stop></linearGradient></defs></svg> -->
    <div class="w-full  lg:grid grid-cols-2 relative">
 
@@ -42,7 +41,7 @@
            </div>
         </div>
      
-        <a class="text-2xl text-blue-700 uppercase " on:click={hideModal=false} href="/">Preorder now 🤝</a>
+        <a class="text-2xl text-blue-700 uppercase "  href="/">Preorder now 🤝</a>
       </div>
 
 

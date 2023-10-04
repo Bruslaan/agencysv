@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from "svelte";
 
+
 	// import Navbar from '../components/navbar.svelte';
 	// import Header from '../components/header-tadm.svelte';
 	// import Hero from '../components/hero.svelte';
@@ -28,9 +29,7 @@
 </div>
 
 <!-- Header -->
-<div class="flex justify-center items-center  text-white pt-12 ">
-	<img src="logo.white.svg" class="" alt="" />
-</div>
+
 
 <div class="flex flex-col text-center justify-center items-center h-[70vh]">
 	<div class="flex flex-col justify-between h-[40vh] ">
@@ -54,28 +53,6 @@
 	</div>
 </div>
 
-<div
 
-	class="uppercase text-white flex gap-6 justify-center text-center font-thin fixed bottom-0 right-0 left-0 p-8"
->
-	<!-- footer -->
-	<a class="" href="/">Imprint</a>
-	<a href="/">KNOWLEDGE HUB</a>
-	<a href="/">CONTACT</a>
-</div>
 
-<div class="inset-0 absolute -z-30" id="particles-js">
-	<img
-		src="background.JPG"
-		class="bg-cover object-cover h-full w-full absolute inset-0 -z-30"
-		alt=""
-	/>
-</div>
 
-<!-- <Navbar />
-<Hero /> -->
-
-<!-- <Faq /> -->
-<!-- <Footer /> -->
-
-<!-- <Stackingcards /> -->

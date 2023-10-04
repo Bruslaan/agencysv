@@ -3,7 +3,7 @@
 
 <title>Tadm Nutrition</title>
 
-<div class="items-center h-[70vh] mt-20 max-w-[700px] mx-auto relative overflow-scroll rounded-lg">
+<div class="items-center md:h-[70vh] h-[60vh] mt-20 max-w-[700px] mx-auto relative overflow-scroll rounded-lg">
 
 	<div class="text-white    p-10 rounded-lg">
 		<h1 class="font-bold">TADM Nutrition GmbH</h1>

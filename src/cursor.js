@@ -1,5 +1,7 @@
 const cursor = document.querySelector('#cursor');
 
+console.log("cursor.js loaded")
+
 const DEFAULT_CURSOR_SIZE = cursor.style.getPropertyValue('--height');
 
 let isCursorLocked = false;
@@ -96,6 +98,26 @@ document.querySelectorAll('p').forEach((p) => {
 	);
 
 	p.addEventListener(
+		'mouseout',
+		() => {
+			cursor.style.setProperty('--width', DEFAULT_CURSOR_SIZE);
+			cursor.style.setProperty('--height', DEFAULT_CURSOR_SIZE);
+		},
+		{ passive: true }
+	);
+});
+
+document.querySelectorAll('input').forEach((input) => {
+	input.addEventListener(
+		'mouseover',
+		() => {
+			cursor.style.setProperty('--width', '0.2em');
+			cursor.style.setProperty('--height', '1.5em');
+		},
+		{ passive: true }
+	);
+
+	input.addEventListener(
 		'mouseout',
 		() => {
 			cursor.style.setProperty('--width', DEFAULT_CURSOR_SIZE);

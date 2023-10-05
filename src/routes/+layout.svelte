@@ -16,8 +16,8 @@
 	</div>
 </div>
 
-<div class="flex justify-center items-center  text-white pt-12 ">
-	<img src="logo.white.svg" class="" alt="" />
+<div class="flex justify-center items-center  text-white pt-12">
+	<img src="logo.white2.png" class="w-40" alt="" />
 </div>
 
 <div class="inset-0 absolute -z-30" id="particles-js">

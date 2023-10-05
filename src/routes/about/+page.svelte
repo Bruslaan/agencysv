@@ -12,7 +12,7 @@
 		<p>80937 Munich</p>
 		<p>Germany</p>
 		<p>Amtsgerichts München, HRB 287692</p>
-		<p>TAX ID: Processing Contact</p>
+		<p>TAX ID: ProcessingContact</p>
 		<p>email: info@tadm-nutrition.de</p>
 
 		<br />

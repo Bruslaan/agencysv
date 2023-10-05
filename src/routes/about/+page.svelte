@@ -17,7 +17,7 @@
 
 		<br />
 		<h1>Represented by:</h1>
-		<h1>Ruslan Noschajew, Ishak Robinovich, Adam Dudarov, Isa Usmanov</h1>
+		<h1>Ruslan Noschajew, Isaak Rabinovic, Adam Dudarov, Isa Usmanov</h1>
 
 		<br />
 		<h1>Notice according to the Online Dispute Resolution Regulation:</h1>
